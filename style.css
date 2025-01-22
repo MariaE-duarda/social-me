@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poiret+One&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o corpo ocupe a altura total da janela */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100%; /* Garante que o contêiner ocupe a altura total do corpo */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+img{
+    width: 100%;
+    height: max-content;
+}
+
+.profile{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -70px;
+    border: 7px solid rgb(12, 12, 12); /* Adiciona uma borda preta */
+}
+
+.profile-container p {
+    margin-top: 10px; /* Adiciona um espaço entre a imagem e o nome */
+    color: rgba(255, 255, 255, 0.705); /* Define a cor do texto */
+    font-family: "Bodoni Moda", serif;
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+h2{
+    font-family: "Poiret One", serif;
+    color: rgba(255, 255, 255, 0.705); /* Define a cor do texto */
+    font-size: 13px;
+    margin-top: -25px;
+}
+
+lu{
+    margin-top: 5px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.705);
+    border-color: rgba(255, 255, 255, 0.705);
+    border-radius: 7px;
+    height: 42px;
+    width: 75%;
+    margin-top: -14px;
+    font-size: 16px;
+    font-family: "Quicksand", serif;
+    cursor: pointer; 
+}
+
+button:hover{
+    background-color: rgba(179, 179, 179, 0.274);
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+
+.skoob{
+    margin-top: 15px;
+}
+
+i{
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.705);
+}
