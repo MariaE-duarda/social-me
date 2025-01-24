@@ -89,3 +89,10 @@ i{
     height: 20px;
     color: rgba(255, 255, 255, 0.705);
 }
+
+.description{
+    font-family: 'Quicksand', serif;
+    margin-top: 0;
+    font-weight: 100;
+    font-size: 15px;
+}
