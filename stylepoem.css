@@ -21,15 +21,21 @@ img{
 h1{
     text-align: center;
     font-family: "Quicksand", serif;
+    font-size: 30px;
 }
 
 p{
     font-family: "Raleway", serif;
     margin-left: 7%;
     margin-right: 7%;
+    font-size: 20px;
+
 
 }
 
 h1, p{
     color: aliceblue;
+    margin-left: 7%;
+    margin-right: 7%;
+
 }
